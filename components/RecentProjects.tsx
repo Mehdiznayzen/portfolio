@@ -6,15 +6,25 @@ import { PinContainer } from "@/components/ui/Pin";
 import { projects } from "@/constants";
 import Image from "next/image";
 import Link from 'next/link'
+import { Dancing_Script } from 'next/font/google';
+import { cn } from '@/lib/utils';
+
+const font = Dancing_Script({
+    subsets: ["latin"],
+    weight : ['400', '500', '600', '700'] 
+});
 
 const RecentProjects = () => {
     return (
-        <div className="py-20" id="projects">
-            <h1 className="heading">
-                A small selection of{" "}
+        <div 
+            className="py-20" 
+            id="projects"
+        >
+            <h1 className={cn("heading", font.className)}>
+                A small selection of my{" "}
                 <span className="text-purple">recent projects</span>
             </h1>
-            <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+            <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10 w-full">
                 {
                     projects.map((item) => (
                         <div
@@ -51,7 +61,7 @@ const RecentProjects = () => {
                                 </h1>
 
                                 <p
-                                    className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                                    className="lg:text-md lg:font-normal font-light text-sm line-clamp-2"
                                     style={{
                                         color: "#BEC1DD",
                                         margin: "1vh 0",

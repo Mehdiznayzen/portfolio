@@ -70,11 +70,11 @@ export const WorkExperience = [
         thumbnail: "/assets/exp3.svg",
     },
     {
-        id: 4,
-        title: "Technical Consultant",
-        desc: "Provided consultancy on full stack development best practices, optimized existing codebases, and trained junior developers in modern web technologies.",
+        "id": 4,
+        title: "React Native Developer",
+        desc: "Specialized in building and optimizing mobile applications using React Native, with a focus on delivering seamless cross-platform experiences and mentoring developers on best practices.",
         className: "md:col-span-2",
-        thumbnail: "/assets/exp4.svg",
+        thumbnail: "/assets/exp4.svg"
     },
 ];
 
@@ -113,10 +113,19 @@ export const projects = [
         id: 2,
         title: "Tasks manager - High level",
         des: "A comprehensive task manager application designed to streamline task organization, integrate AI features, and support a robust payment and credit system using the latest technology stack.",
-        img: "/assets/p3.png",
-        iconLists: ["/assets/next.svg", "/assets/tail.svg", "/assets/ts.svg", "/assets/shadcn-logo.png", "/assets/convex-logo.png"],
+        img: "/assets/p2.png",
+        iconLists: ["/assets/next.svg", "/assets/ts.svg", "/assets/shadcn-logo.png", "/assets/tail.svg", "/assets/convex-logo.png"],
         link: "https://task-manager-lilac-six.vercel.app/",
         name: "Tasks manager"
+    },
+    {
+        id: 3,
+        title: "LiveDocs - App with Permissions and Notifications",
+        des: "A application improved Google Docs that manages millions of collaborators in real-time.",
+        img: "/assets/p3.png",
+        iconLists: ["/assets/next.svg", "/assets/tail.svg", "/assets/sentry-logo.png", "/assets/loveblocks-logo.png", "/assets/shadcn-logo.png"],
+        link: "https://livedocs-app.vercel.app/",
+        name: "Live Docs"
     },
 ];
 
