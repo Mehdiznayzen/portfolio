@@ -29,7 +29,7 @@ const About = () => {
     };
 
     const handleCopy = () => {
-        navigator.clipboard.writeText("mehdiznayzen@gmail.com")
+        navigator.clipboard.writeText("https://github.com/Mehdiznayzen")
         setCopied(true)
         setInterval(() => {
             setCopied(false)
@@ -104,7 +104,7 @@ const About = () => {
                     <MagicButton
                         icon={copied ? <MdOutlineLibraryAddCheck /> : <MdOutlineContentCopy />}
                         position='left'
-                        title={copied ? "Email Copied 💥" : "Copy My Email ❤️‍🔥"}
+                        title={copied ? "Github Copied 💥" : "Copy My Github ❤️‍🔥"}
                         onClick={handleCopy}
                     />
                 </div>
