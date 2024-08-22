@@ -86,15 +86,9 @@ export const socialMedia = [
         name: "Github"
     },
     {
-        id: 2,
-        img: "/assets/twit.svg",
-        link: "https://www.twitter.com",
-        name: "Twitter"
-    },
-    {
         id: 3,
         img: "/assets/link.svg",
-        link: "https://www.linkedin.com",
+        link: "https://linkedin.com/in/mehdi-znayzen-0a2a80274",
         name: "Linkedin"
     },
 ];
