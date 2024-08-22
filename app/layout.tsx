@@ -5,6 +5,7 @@ import ThemeProvider from "@/components/providers/ThemeProvider";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 import { Toaster } from "@/components/ui/toaster";
+import { Suspense } from "react";
 
 const font = Roboto_Slab({ subsets: ["latin"] });
 
@@ -41,7 +42,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
-          >
+            >
             {children}
             <Toaster />
           </ThemeProvider>

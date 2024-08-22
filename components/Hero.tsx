@@ -7,6 +7,7 @@ import MagicButton from '@/components/ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6'
 import ButtonScrollTop from '@/components/ButtonScrollTop'
 import LineWidth from '@/components/lineWidth';
+import ScrollHero from '@/components/ScrollHero';
 
 const Hero = () => {
     const [showBtn, setShowBtn] = useState<boolean>(false)
@@ -53,7 +54,7 @@ const Hero = () => {
 
             <div className="flex justify-center relative my-20 z-10">
                 <LineWidth />
-                <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col gap-[20px] items-center justify-center">
+                <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col gap-[23px] items-center justify-center">
                     <h2 className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-96">
                         Building Web sites Brilliance with the Latest Technologies in Web Development
                     </h2>
@@ -73,6 +74,8 @@ const Hero = () => {
                             position="right"
                         />
                     </a>
+
+                    <ScrollHero />
                 </div>
             </div>
             {
