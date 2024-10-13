@@ -89,6 +89,7 @@ export const AnimatedTooltip = ({ items,
             >
                 <Link
                     href={item.link}
+                    target={"_blank"}
                 >
                     <Image
                         src={item.img} 

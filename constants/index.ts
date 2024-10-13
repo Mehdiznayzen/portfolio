@@ -117,10 +117,19 @@ export const projects = [
         title: "LiveDocs - App with Permissions and Notifications",
         des: "A application improved Google Docs that manages millions of collaborators in real-time.",
         img: "/assets/p3.png",
-        iconLists: ["/assets/next.svg", "/assets/tail.svg", "/assets/sentry-logo.png", "/assets/loveblocks-logo.png", "/assets/shadcn-logo.png"],
+        iconLists: ["/assets/next.svg", "/assets/tail.svg", "/assets/sentry-logo.png", "/assets/liveblocks-logo.png", "/assets/shadcn-logo.png"],
         link: "https://livedocs-app.vercel.app/",
         name: "Live Docs"
     },
+    {
+        id: 4,
+        title: "XORA - SaaS Landing Page",
+        des: "A sleek landing page for XORA, a SaaS application designed to revolutionize business management with modern tools and features.",
+        img: "/assets/p4.png", 
+        iconLists: ["/assets/re.svg", "/assets/tail.svg", "/assets/three.png", "/assets/framer-motion.png", "/assets/Vitejs-logo.svg"],
+        link: "https://xora-mehdi-483655ac.vercel.app/",
+        name: "XORA SaaS Landing"
+    }
 ];
 
 export const gridItems = [

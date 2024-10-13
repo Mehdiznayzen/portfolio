@@ -49,12 +49,12 @@ const Footer = () => {
                             width={40}
                             height={40}
                             className="object-contain"
-                            />
+                        />
                     </Link>
 
                     <AnimatedTooltip
                         items={socialMedia}
-                        />
+                    />
                 </div>
             </footer>
         </div>
